@@ -1,5 +1,7 @@
 import streamlit as st
 import pickle
+import win32api
+import win32com.client
 from sklearn.feature_extraction.text import CountVectorizer
 import numpy as np
 from win32com.client import Dispatch
