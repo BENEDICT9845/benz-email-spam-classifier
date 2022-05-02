@@ -1,5 +1,4 @@
 streamlit
 numpy
 sklearn
-pypiwin32==223
-pywin32==223
+pywin32==301; platform_system == "Windows"
