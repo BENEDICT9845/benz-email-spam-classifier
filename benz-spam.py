@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 import numpy as np
-from win32com.client import Dispatch
+# from win32com.client import Dispatch
 
 hide_menu = """
 <style>
@@ -25,7 +25,7 @@ footer:after {
 """
 
 def speak(text):
-	speak=Dispatch(("SAPI.SpVoice"))
+	# speak=Dispatch(("SAPI.SpVoice"))
 	speak.Speak(text)
 
 
