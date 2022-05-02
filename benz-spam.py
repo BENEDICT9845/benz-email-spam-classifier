@@ -55,10 +55,10 @@ def main():
 			result=model.predict(vec)
 			if result[0]==0:
 				st.success("This is Not A Spam Email")
-				speak("This is Not A Spam Email")
+				#speak("This is Not A Spam Email")
 			else:
 				st.error("This is A Spam Email")
-				speak("This is A Spam Email")
+				#speak("This is A Spam Email")
 
 	if choices=="about":
 		st.subheader("Made with ♥ by Prajwal benedict A")
