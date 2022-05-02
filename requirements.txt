@@ -1,4 +1,4 @@
 streamlit
 numpy
 sklearn
-pywin32
+win32com
